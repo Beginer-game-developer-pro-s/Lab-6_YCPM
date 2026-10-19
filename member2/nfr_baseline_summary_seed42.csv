@@ -1,0 +1,3 @@
+nfr_id,metric,seed,n,p50_ms,p95_ms,max_ms,p99_s,threshold,verdict
+NFR-001,doctor_search_latency,42,500,835,1233,2459,,p95 <= 2000 ms,PASS
+NFR-007,conflict_detection_time,42,200,,,,0.824,p99 <= 1.0 s,PASS
